@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "24f26a16ba7a1d95",
+    "type": "split",
+    "children": [
+      {
+        "id": "182f06a778fb0800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f0f4a78420212da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/可重构/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d416ff25137ffe5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ccc5e6d22441690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "427cafdc3c2b745f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f2f68ce55bddd5b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2508dd6efec4bef9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e46bf319e0f3dd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8956213ef7cf31b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17f50cd8e8f329df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工作/可重构/未命名.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "未命名 的反向链接列表"
+            }
+          },
+          {
+            "id": "67befbff94a3efe3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工作/可重构/未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
+            }
+          },
+          {
+            "id": "924ef4c882c2f319",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "63a5a6a6c927d2bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "e3c2ba6cd4099819",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工作/可重构/未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "bases:创建新数据库": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "427cafdc3c2b745f",
+  "lastOpenFiles": [
+    "工作/PLC代码生成/6.23小组工作计划.md",
+    "工作/250922本子/250906--论文.md",
+    "工作/250922本子/250907论文.md",
+    "工作/250922本子/250911资料查询.md",
+    "工作/250922本子/250912-相关专利查询.md",
+    "工作/250922本子/操作系统内核架构.md",
+    "工作/250922本子/Factory Operating System for Smart Factory Vertical Integration.md",
+    "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+    "工作/可重构/250720-世界模型文献调研.md",
+    "工作/可重构/250720-世界模型文献调研 1.md"
+  ]
+}

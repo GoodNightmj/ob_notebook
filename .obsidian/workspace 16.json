@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "21fcfa18ff0e0c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a15155ec55f57da3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "778beb3eff7e9198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/算法/代码随想录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "代码随想录"
+            }
+          },
+          {
+            "id": "b2b38e5d616cec28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/250922本子/操作系统内核架构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "操作系统内核架构"
+            }
+          },
+          {
+            "id": "09e60524007d4a35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/PLC代码生成/6.23小组工作计划.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.23小组工作计划"
+            }
+          },
+          {
+            "id": "e6ddfd0a1aeb6696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/可重构/250720-世界模型文献调研 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "250720-世界模型文献调研 1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34fa1d3e6df1c540",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea15a307753faac1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "676a65e7285e6f4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5ac0a9bd5bd70add",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a0fbc85196a98bad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f0487966109b7161",
+    "type": "split",
+    "children": [
+      {
+        "id": "be657763e4693add",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6db3552a1142be65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS/Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Git 的反向链接列表"
+            }
+          },
+          {
+            "id": "c21ea09ef777947e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "420b025d4d54e819",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "68daf4adfddf1481",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "课程/算法.md"
+              },
+              "icon": "lucide-list",
+              "title": "算法 的大纲"
+            }
+          },
+          {
+            "id": "fd149f35f5123f67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "b2b38e5d616cec28",
+  "lastOpenFiles": [
+    "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+    "工作/250922本子/操作系统内核架构.md",
+    "未命名 1.md",
+    "工作/250922本子",
+    "CS/算法/代码随想录.md",
+    "工作/PLC代码生成/6.23小组工作计划.md",
+    "工作/可重构/250720-世界模型文献调研 1.md",
+    "lcy/README.md",
+    "lcy/check.md",
+    "未命名.md",
+    "滴滴算法.md",
+    "CS/算法/代码源.md",
+    "CS/machine learning.md",
+    "CS/Make.md",
+    "250728微信公众号相关资料.md",
+    "GOOGLE_CLOUD_PROJECT = _skilful-racer-466512-m7_.md",
+    "GOOGLE_CLOUD_PROJECT = \"skilful-racer-466512-m7\".md",
+    "工作/PLC/2506/PLC orchestration automation to enhance human–machine integration inadaptive manufacturing systems.md",
+    "工作/PLC/2507/250705-指南理解.md",
+    "工作/可重构/250720-世界模型文献调研.md",
+    "未命名 1",
+    "工作/可重构",
+    "工作/PLC/2507/260705-基于可微物理表示的空间智能学习机制重大项目指南.md",
+    "工作/PLC/2507",
+    "工作/PLC/2506/250610 国内外研究现状内容初稿.md",
+    "工作/PLC/2506/250609国内外研究现状.md",
+    "工作/PLC/2506/250606-参考文献.md",
+    "工作/杂/论文分区3-4页.md",
+    "工作/杂",
+    "工作/PLC代码生成",
+    "工作/PLC/2506",
+    "CS/Git.md",
+    "工作/编译原理/250512-第二章_词法分析 陈钰婷 王嘉蕊.md",
+    "工作/PLC/paper",
+    "工作/编译原理/5.31成稿",
+    "工作/编译原理/未命名",
+    "image-20250529104837046.png",
+    "微信图片_20250529114511.png",
+    "微信图片_20250529114052.png",
+    "c90a2eb33ca1b796d0401c20008d909.png",
+    "image-20250527170511798.png",
+    "image-20250527165912657.png",
+    "image-20250527152738216.png",
+    "image-20250527151927810.png",
+    "p1.png",
+    "dfa_trace_ifii_on_desktop.png",
+    "未命名.canvas"
+  ]
+}

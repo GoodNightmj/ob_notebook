@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "f7a41641eec26dd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7073722b603f2188",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5021e11cda7348e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文阅读/251020--人工智能领域的瓶颈：在数据为中心的时代中嵌入式和实时领域的挑战.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "251020--人工智能领域的瓶颈：在数据为中心的时代中嵌入式和实时领域的挑战"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eac17faa19e0cfcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "332d3161933ff4cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12b83d9f3be8f113",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "26ed15fff8126208",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d0e71aa4fbddbcec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "edf2b7a2bf231d88",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ab03a5330d0a414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ee0c8c9a13f419c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "泛在操作系统与开放环境自然交互接口设计，及反馈控制调度 的反向链接列表"
+            }
+          },
+          {
+            "id": "be5bc432961c84fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "泛在操作系统与开放环境自然交互接口设计，及反馈控制调度 的出链列表"
+            }
+          },
+          {
+            "id": "7edf06f6c005035d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "29cb38c29b6bb145",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6f9e05370d6ada69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "泛在操作系统与开放环境自然交互接口设计，及反馈控制调度 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "bases:创建新数据库": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "a5021e11cda7348e",
+  "lastOpenFiles": [
+    "工作/可重构/251009.md",
+    "工作/250922本子/泛在操作系统与开放环境自然交互接口设计，及反馈控制调度.md",
+    "工作/250922本子/250911资料查询.md",
+    "工作/250922本子/250906--论文.md",
+    "工作/250922本子/250907论文.md",
+    "PPT/4.25PPT资料.md",
+    "lcy/README.md",
+    "CS/算法/Hot100.md",
+    "CS/算法/代码源.md",
+    "CS/算法/代码随想录.md",
+    "课程/结课报告题目：从自编码器到生成网络——基于生成网络的大模型的研究现状和未来发展.md",
+    "课程/计网.md",
+    "课程/算法.md",
+    "工作/PLC/PLC 东软(1).md",
+    "工作/PLC/PLC 东软.md",
+    "工作/PLC/openplc 大工化.md",
+    "工作/PLC/主流PLC ai模块.md",
+    "工作/PLC/2506/250610 国内外研究现状内容初稿.md",
+    "工作/PLC/2506/250609国内外研究现状.md",
+    "工作/PLC/2506/250604-三个方案.md",
+    "工作/智能建造/250208-工业OS的slides(1).md",
+    "工作/杂/论文分区3-4页.md",
+    "工作/杂/251018jd笔试.md",
+    "CS/java基础语法.md",
+    "论文阅读/251020--人工智能领域的瓶颈：在数据为中心的时代中嵌入式和实时领域的挑战.md"
+  ]
+}

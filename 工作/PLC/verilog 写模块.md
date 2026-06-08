@@ -1,0 +1,2 @@
+section
+https://www.fernhillsoftware.com/help/iec-61131/common-elements/selection-functions/index.html#:~:text=The%20IEC%2061131-3%20Selection%20Functions%20choose%20one%20value,of%20two%20values%20depending%20on%20a%20BOOL%20value.
