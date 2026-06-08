@@ -1,4 +1,4 @@
 .DS_Store
 .trash/
 .git-backup-*
-.obsidian/plugins/obsidian-git/obsidian_askpass *.sh
+.obsidian/plugins/obsidian-git/obsidian_askpass*.sh
