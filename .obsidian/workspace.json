@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CS/大模型/吴师兄训练营/第一周/大模型数学基础_codex.md",
+                    "file": "CS/算法/代码随想录.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "大模型数学基础_codex"
+                  "title": "代码随想录"
                 }
               }
             ]
@@ -248,9 +248,9 @@
   },
   "active": "370c15b95b019b45",
   "lastOpenFiles": [
+    "CS/算法/代码随想录.md",
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础.md",
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础_codex.md",
-    "CS/算法/代码随想录.md",
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础_补充完整版.md",
     "launchd/com.mj.obsidian.auto-sync.plist",
     "launchd",
