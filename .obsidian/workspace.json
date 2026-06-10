@@ -10,7 +10,7 @@
           {
             "id": "c5535538d9f9390e",
             "type": "tabs",
-            "dimension": 79.33884297520662,
+            "dimension": 67.14876033057851,
             "children": [
               {
                 "id": "370c15b95b019b45",
@@ -31,7 +31,7 @@
           {
             "id": "37f51f5481ec0419",
             "type": "tabs",
-            "dimension": 20.66115702479339,
+            "dimension": 32.85123966942149,
             "children": [
               {
                 "id": "7e15f701f248acad",
@@ -246,7 +246,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "370c15b95b019b45",
+  "active": "7e15f701f248acad",
   "lastOpenFiles": [
     "CS/算法/代码随想录.md",
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础.md",
