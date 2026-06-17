@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "d811273be7c20d67",
+    "id": "c042daf68887df6d",
     "type": "split",
     "children": [
       {
-        "id": "b3783f74b0d7f5ea",
+        "id": "a32b41bcf5ee5e6f",
         "type": "tabs",
         "children": [
           {
-            "id": "0d04edcb1a1aaad8",
+            "id": "5507c95e51cad5e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/算法/代码随想录.md",
+                "file": "CS/大模型/吴师兄训练营/第一周/python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代码随想录"
+              "title": "python"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c4cbc9a86ee5777b",
+    "id": "c13d8971712d237b",
     "type": "split",
     "children": [
       {
-        "id": "844c477938a6422a",
+        "id": "a032f46257026f3d",
         "type": "tabs",
         "children": [
           {
-            "id": "07e2d4042674bb55",
+            "id": "e26a96e374ac9b9b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "15f90a2ac3c958ca",
+            "id": "edad51a1af30a708",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "c973038ec7f649b6",
+            "id": "a99fb9d48299d067",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "44c7b8a1bd51317a",
+    "id": "5c8d610d1c0d11a4",
     "type": "split",
     "children": [
       {
-        "id": "f3f0ffc1edf45526",
+        "id": "ea1b1eb507e18def",
         "type": "tabs",
         "children": [
           {
-            "id": "9e08408d93eccd2d",
+            "id": "82002f12b903b4f5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/大模型/Python.md",
+                "file": "CS/大模型/吴师兄训练营/第一周/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Python 的反向链接列表"
+              "title": "python 的反向链接列表"
             }
           },
           {
-            "id": "592b37f16ba204aa",
+            "id": "a49b765ec40fd484",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/25.12/251222-卫星遥感、海上执法、软件平台.md",
+                "file": "CS/大模型/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "251222-卫星遥感、海上执法、软件平台 的出链列表"
+              "title": "Python 的出链列表"
             }
           },
           {
-            "id": "0c8b7f339e97d608",
+            "id": "d867911b65ab905e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "0eb3bacd7786487b",
+            "id": "7dacc35af33022ee",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,30 +151,31 @@
             }
           },
           {
-            "id": "685f7bd0cffc012e",
+            "id": "8f18ca075494ff75",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/25.12/251222-卫星遥感、海上执法、软件平台.md",
+                "file": "CS/大模型/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "251222-卫星遥感、海上执法、软件平台 的大纲"
+              "title": "Python 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -182,47 +183,20 @@
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "bases:新建数据库": false,
-      "obsidian-importer:Open Importer": false,
-      "terminal:Open terminal": false
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0d04edcb1a1aaad8",
+  "active": "5507c95e51cad5e2",
   "lastOpenFiles": [
-    "CS/大模型/吴师兄训练营/第一周/python.md",
-    "工作/26.6/demo-runbook.md",
     "CS/大模型/吴师兄训练营/第一周/Claude code.md",
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础.md",
-    "CS/算法/代码随想录.md",
+    "工作/26.6/demo-runbook.md",
     "工作/26.6/260615视频准备.md",
     "工作/26.6/20260611-Spec2Control 项目工作流程汇报.md",
-    "工作/26.6/spec2control-workflow-report 1.md",
-    "工作/26.6/spec2control-workflow-report.md",
     "工作/26.6/260611工作汇报.md",
-    "spec2control-workflow-report.md",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础_codex.md",
-    "工作/编译原理/250512-词法分析 RE---NFA 翟书琪.md",
-    "工作/编译原理/250517-分析树和二义性文法 吕盈忱.md",
-    "工作/编译原理/250519-自顶向下分析黄路凡.md",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础_补充完整版.md",
-    "launchd/com.mj.obsidian.auto-sync.plist",
-    "launchd",
-    "scripts/obsidian-auto-sync.sh",
-    "scripts",
-    "CS/算法/Hot100.md",
-    "CS/算法/代码源.md",
-    "工作/26.5/README 1.md",
-    "工作/26.5/README.md",
-    "claude code最新指令大全.pdf",
-    "工作/杂/对老师的道歉.md",
-    "工作/未命名.md",
-    "工作/26.6",
-    "工作/26.1/检讨书.md",
-    "CS/Pythonlxf.md",
-    "CS/大模型/吴师兄训练营/第一周",
-    "CS/大模型/吴师兄训练营",
-    "工作/26.5/spec2control.md",
-    "工作/26.3/Spec2Control 复现与适配进展汇报.md",
-    "CS/大模型/python",
-    "CS/大模型"
+    "CS/算法/代码随想录.md",
+    "lcy/README.md",
+    "lcy/251126图片解释.md",
+    "lcy/251126天问仪器介绍.md"
   ]
 }
