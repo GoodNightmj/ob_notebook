@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "d811273be7c20d67",
+    "id": "6172a4365fcdc33c",
     "type": "split",
     "children": [
       {
-        "id": "b3783f74b0d7f5ea",
+        "id": "01f83cee7dfc0185",
         "type": "tabs",
         "children": [
           {
-            "id": "0d04edcb1a1aaad8",
+            "id": "5e83c7b584a27fcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/大模型/agent-hub/stage1.md",
+                "file": "CS/算法/代码随想录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stage1"
+              "title": "代码随想录"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c4cbc9a86ee5777b",
+    "id": "8fbe6bce722a7eab",
     "type": "split",
     "children": [
       {
-        "id": "844c477938a6422a",
+        "id": "3c507a8be1cae988",
         "type": "tabs",
         "children": [
           {
-            "id": "07e2d4042674bb55",
+            "id": "452116ac6cc56035",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "15f90a2ac3c958ca",
+            "id": "9b8aae789f61859f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "c973038ec7f649b6",
+            "id": "27ad47e5dae50287",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "44c7b8a1bd51317a",
+    "id": "079d1c06ca833525",
     "type": "split",
     "children": [
       {
-        "id": "f3f0ffc1edf45526",
+        "id": "f5c7a5c0cb811404",
         "type": "tabs",
         "children": [
           {
-            "id": "9e08408d93eccd2d",
+            "id": "2813b15af0a5a6e8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/大模型/Python.md",
+                "file": "CS/算法/代码随想录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Python 的反向链接列表"
+              "title": "代码随想录 的反向链接列表"
             }
           },
           {
-            "id": "592b37f16ba204aa",
+            "id": "7d8ecefa875ccd21",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/25.12/251222-卫星遥感、海上执法、软件平台.md",
+                "file": "CS/算法/代码随想录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "251222-卫星遥感、海上执法、软件平台 的出链列表"
+              "title": "代码随想录 的出链列表"
             }
           },
           {
-            "id": "0c8b7f339e97d608",
+            "id": "df7855f930cf7b4d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "0eb3bacd7786487b",
+            "id": "35c1161bb4d51419",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +151,18 @@
             }
           },
           {
-            "id": "685f7bd0cffc012e",
+            "id": "23d52d798f8bb026",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/25.12/251222-卫星遥感、海上执法、软件平台.md",
+                "file": "CS/算法/代码随想录.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "251222-卫星遥感、海上执法、软件平台 的大纲"
+              "title": "代码随想录 的大纲"
             }
           }
         ]
@@ -174,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -183,46 +182,10 @@
       "zk-prefixer:创建时间戳笔记": false,
       "bases:新建数据库": false,
       "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "0d04edcb1a1aaad8",
-  "lastOpenFiles": [
-    "CS/大模型/agent-hub/stage0.md",
-    "CS/大模型/agent-hub/stage1.md",
-    "CS/大模型/吴师兄训练营/第一周/神经网络&&pytorch 入门.md",
-    "工作/26.6/260619工作总结.md",
-    "CS/大模型/agent-hub",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础_codex.md",
-    "CS/大模型/吴师兄训练营/第一周/python.md",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础.md",
-    "CS/算法/代码随想录.md",
-    "工作/26.6/demo-runbook.md",
-    "CS/大模型/吴师兄训练营/第一周/Claude code.md",
-    "工作/26.6/260615视频准备.md",
-    "工作/26.6/20260611-Spec2Control 项目工作流程汇报.md",
-    "工作/26.6/spec2control-workflow-report 1.md",
-    "工作/26.6/spec2control-workflow-report.md",
-    "工作/26.6/260611工作汇报.md",
-    "spec2control-workflow-report.md",
-    "工作/编译原理/250512-词法分析 RE---NFA 翟书琪.md",
-    "工作/编译原理/250517-分析树和二义性文法 吕盈忱.md",
-    "工作/编译原理/250519-自顶向下分析黄路凡.md",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础_补充完整版.md",
-    "launchd/com.mj.obsidian.auto-sync.plist",
-    "launchd",
-    "scripts/obsidian-auto-sync.sh",
-    "scripts",
-    "CS/算法/Hot100.md",
-    "CS/算法/代码源.md",
-    "工作/26.5/README 1.md",
-    "工作/26.5/README.md",
-    "claude code最新指令大全.pdf",
-    "工作/杂/对老师的道歉.md",
-    "工作/未命名.md",
-    "工作/26.6",
-    "CS/大模型/吴师兄训练营/第一周",
-    "CS/大模型/吴师兄训练营",
-    "CS/大模型/python"
-  ]
+  "active": "5e83c7b584a27fcd",
+  "lastOpenFiles": []
 }
