@@ -13,3 +13,22 @@
 ### 会让模型输出结构化 JSON
 json的key必须是字符串，字符串必须用双引号
 
+第一步：会让模型只输出 JSON  
+在提示词里进行限制，无论是对system还是user
+
+第二步：会用 json.loads() 解析  
+输出的字符串能否使用json.loads（）进行解析，若不抛出JSONDecodeError错误，只能说明“是合法 JSON”，不能说明字段齐全、字段类型正确。字段结构要交给 Pydantic 或 Structured Outputs 校验。
+
+第三步：会用 Pydantic 校验字段  
+使用BaseModel这个类，将里面要加的具体限制加到类里
+在通过model_validate(字典)函数将字典转换为python对象
+第四步：了解 JSON mode  
+就是在在response 里加入response_format={"type":"json_object"}的限制
+
+第五步：了解 Structured Outputs
+这里就是将response_format=AnasysisResult，并改变response = client.chat.completions.parse(model=model, messages=messages,response_format=AnasysisResult)
+直接输出正确结果
+
+
+### 会定义一个工具函数，例如 search、calculator、read_file。
+
