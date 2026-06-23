@@ -17,7 +17,7 @@ json的key必须是字符串，字符串必须用双引号
 在提示词里进行限制，无论是对system还是user
 
 第二步：会用 json.loads() 解析  
-输出的字符串能否使用json.loads（）进行解析，若不抛出JSONDecodeError错误，只能说明“是合法 JSON”，不能说明字段齐全、字段类型正确。字段结构要交给 Pydantic 或 Structured Outputs 校验。
+输出的字符串能否使用json.loads（）进行解析，即将str转成python 字典,若不抛出JSONDecodeError错误，只能说明“是合法 JSON”，不能说明字段齐全、字段类型正确。字段结构要交给 Pydantic 或 Structured Outputs 校验。
 
 第三步：会用 Pydantic 校验字段  
 使用BaseModel这个类，将里面要加的具体限制加到类里
@@ -31,4 +31,140 @@ json的key必须是字符串，字符串必须用双引号
 
 
 ### 会定义一个工具函数，例如 search、calculator、read_file。
+工具函数本质上就是一个普通的 Python 函数，只是在 Agent 系统中，它会被当作大模型可以调用的外部工具。
+例如：
+```python
+def calculator(expression: str) -> dict:
+    ...
+```
+```python
+def search(query: str) -> dict:
+    ...
+```
+```python
+def read_file(path: str) -> dict:
+    ...
+```
+这些工具函数的共同点是：返回值最好统一为字典形式，并且都包含 `"success"` 字段，用来表示工具是否执行成功。
+成功时可以返回：
+```python
+{
+    "success": True,
+    "result": ...
+}
+```
+失败时可以返回：
+```python
+{
+    "success": False,
+    "error": "错误信息"
+}
+```
+这样主程序可以统一判断：
+```python
+if tool_result["success"]:
+    ...
+else:
+    ...
+```
+工具函数通常不会由我手动直接调用，而是通过工具执行器动态调用。
+例如模型输出：
+```python
+{
+    "action": "calculator",
+    "arguments": {
+        "expression": "25 * 48"
+    },
+    "need_tool": True
+}
+```
+程序会根据 `action` 从 `TOOLS` 注册表中找到对应函数：
+```python
+TOOLS = {
+    "calculator": calculator,
+    "search": search,
+    "read_file": read_file
+}
+```
+然后通过：
+```python
+tool_func(**arguments)
+```
+把 `arguments` 字典展开为关键字参数。
+例如：
+```python
+arguments = {
+    "expression": "25 * 48"
+}
+```
+那么：
+```python
+calculator(**arguments)
+```
 
+等价于：
+
+```python
+calculator(expression="25 * 48")
+```
+
+因此，`arguments` 字典里的 key 必须和工具函数的形参名一致。
+
+例如函数定义是：
+
+```python
+def calculator(expression: str) -> dict:
+    ...
+```
+那么模型输出的参数必须是：
+```python
+{
+    "expression": "25 * 48"
+}
+```
+不能写成：
+```python
+{
+    "expr": "25 * 48"
+}
+```
+
+否则会出现参数名不匹配错误。
+
+总结：
+
+工具函数负责完成具体能力，例如计算、搜索、读文件；`TOOLS` 注册表负责把工具名称映射到真实函数；`run_tool` 执行器负责根据 `action` 找到函数，并用 `tool_func(**arguments)` 动态调用工具。
+
+### 会解析模型的 tool call / function call。
+知识点：
+1. 能定义 tools 列表  
+2. 知道 tools 只是给模型看的工具说明，不是本地函数本身  
+3. 能把 tools=tools 传给模型  
+4. 能读取 response.choices[0].message  
+5. 能判断 message.tool_calls 是否存在  
+6. 能从 tool_call.function.name 取出工具名  
+7. 能从 tool_call.function.arguments 取出参数字符串  
+8. 能用 json.loads() 把参数字符串转成 dict  
+9. 能用 run_tool(name, arguments) 执行本地工具  
+10. 能把工具结果用 role="tool" 和 tool_call_id 返回给模型  
+11. 能再次调用模型生成最终回答
+链路：
+```
+用户输入  
+↓  
+把 tools 列表传给模型  
+↓  
+模型返回 message.tool_calls  
+↓  
+从 tool_call 中取出 function.name  
+↓  
+从 tool_call 中取出 function.arguments  
+↓  
+json.loads(arguments)  
+↓  
+run_tool(name, arguments)  
+↓  
+把工具结果返回给模型  
+↓  
+模型生成最终自然语言回答
+```
