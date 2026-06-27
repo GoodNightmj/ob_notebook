@@ -257,10 +257,22 @@ if message.tool_calls:
 messages.append({"rule":"tool","tools_call_id":"tool_call.id,"content":"json.dumps((tool_result, ensure_ascii=False) )})
 
 ### 会给 agent loop 加最大步数、超时和错误处理。
+现在大概的流程是
+```python
+while True:
+    response = call_model(messages)
 
+    if no_tool_calls:
+        return final_answer
 
-
-
+    execute_tools()
+    append_tool_results()
+```
+为了防止循环不结束
+所以要加最大步数
+加超时是为了防止
+	1.模型api超时
+	2.工具执行超时
 
 
 
