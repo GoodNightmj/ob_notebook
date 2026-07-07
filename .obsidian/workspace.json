@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/大模型/mewagent/第一章.md",
+                "file": "面试/潍柴260702.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章"
+              "title": "潍柴260702"
             }
           }
         ]
@@ -188,18 +188,21 @@
   },
   "active": "0d04edcb1a1aaad8",
   "lastOpenFiles": [
-    "CS/大模型/agent-hub/stage2.md",
-    "工作/26.6/260621工作总结.md",
-    "工作/26.6/260615视频准备.md",
-    "CS/大模型/agent-hub/stage1.md",
-    "CS/大模型/agent-hub/stage0.md",
+    "CS/大模型/mewagent/第二章：让AI开口说话.md",
+    "面试/潍柴260702.md",
+    "面试",
     "CS/大模型/mewagent/第一章.md",
+    "CS/大模型/Claude code.md",
+    "CS/大模型/agent-hub/stage0.md",
     "CS/大模型/扫盲/大模型基础入门.md",
+    "CS/大模型/agent-hub/stage2.md",
+    "CS/大模型/agent-hub/stage1.md",
     "CS/大模型/mewagent/第一章",
     "CS/大模型/mewagent",
     "CS/大模型/python.md",
     "工作/26.5/250506会议总结.md",
     "工作/智能建造/250208-工业OS的slides(1).md",
+    "工作/26.6/260621工作总结.md",
     "CS/大模型/扫盲/未命名",
     "CS/大模型/扫盲",
     "CS/大模型/吴师兄训练营/第一周/神经网络&&pytorch 入门.md",
@@ -209,7 +212,7 @@
     "CS/大模型/吴师兄训练营/第一周/大模型数学基础.md",
     "CS/算法/代码随想录.md",
     "工作/26.6/demo-runbook.md",
-    "CS/大模型/吴师兄训练营/第一周/Claude code.md",
+    "工作/26.6/260615视频准备.md",
     "工作/26.6/20260611-Spec2Control 项目工作流程汇报.md",
     "工作/26.6/spec2control-workflow-report 1.md",
     "工作/26.6/spec2control-workflow-report.md",
@@ -217,12 +220,9 @@
     "spec2control-workflow-report.md",
     "工作/编译原理/250512-词法分析 RE---NFA 翟书琪.md",
     "工作/编译原理/250517-分析树和二义性文法 吕盈忱.md",
-    "工作/编译原理/250519-自顶向下分析黄路凡.md",
-    "CS/大模型/吴师兄训练营/第一周/大模型数学基础_补充完整版.md",
     "launchd/com.mj.obsidian.auto-sync.plist",
     "launchd",
     "scripts/obsidian-auto-sync.sh",
-    "scripts",
-    "claude code最新指令大全.pdf"
+    "scripts"
   ]
 }
